@@ -9,7 +9,8 @@
     "dev": "tsc && node dist/server.js",
     "test:unit": "ENV_FILE=./config/.env.test jest",
     "build": "tsc",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start": "node dist/server.js "
   },
   "dependencies": {
     "express": "^4.18.2",
